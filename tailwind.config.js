@@ -2,6 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
 	mode: "jit",
+	purge: ["./pages/*.{js,jsx}", "./styles/*"],
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}",
@@ -23,6 +24,9 @@ module.exports = {
 					200: "#ebedef",
 					100: "#f2f3f5",
 				},
+			},
+			spacing: {
+				88: "22rem",
 			},
 		},
 	},
