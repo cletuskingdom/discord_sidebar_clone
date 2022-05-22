@@ -25,10 +25,10 @@ export default function Home() {
 			</div>
 
 			<div className="container mx-auto py-10 pl-24 pr-10 md:pl-24 md:pr-10">
-				<h1 className="pb-8 text-5xl">
+				<h1 className="pb-8 lg:text-5xl text-3xl">
 					Welcome to DISCORD Sidebar Clone
 				</h1>
-				<p>
+				<p className="mb-5">
 					Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 					Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
 					natoque penatibus et magnis dis parturient montes, nascetur
@@ -37,7 +37,8 @@ export default function Home() {
 					Donec pede justo, fringilla vel, aliquet nec, vulputate
 					eget, arcu.
 				</p>
-				<p>
+
+				<p className="mb-5">
 					In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
 					justo. Nullam dictum felis eu pede mollis pretium. Integer
 					tincidunt. Cras dapibus. Vivamus elementum semper nisi.
@@ -45,7 +46,8 @@ export default function Home() {
 					porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
 					lorem ante, dapibus in, viverra quis, feugiat a, tellus.
 				</p>
-				<p>
+
+				<p className="mb-5">
 					Phasellus viverra nulla ut metus varius laoreet. Quisque
 					rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
 					Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
